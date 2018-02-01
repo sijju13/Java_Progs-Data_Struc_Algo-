@@ -10,8 +10,8 @@ public class CoursePrep {
                      + "course \nmechanics, it is my responsibility to "
                      + "discuss them with the instructor.");
         StdOut.println();
-        StdOut.println("[Name]");
-        StdOut.println("[UMass Boston Email]");
-        StdOut.println("[CS Account Username]");
+        StdOut.println("[Sijju Karki]");
+        StdOut.println("[sijju.karki001@umb.edu]");
+        StdOut.println("[sijju14]");
     }
 }
