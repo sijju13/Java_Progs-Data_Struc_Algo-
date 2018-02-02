@@ -11,6 +11,14 @@ import edu.princeton.cs.algs4.StdOut;
 
 public class DayOfWeek {
     public static void main(String[] args) {
-        ...
+        int m = Integer.parseInt(args[0]);
+        int d = Integer.parseInt(args[1]);
+        int y = Integer.parseInt(args[2]);
+        int yo = y - (14 - m) / 12;
+        int xo = yo + yo / 4 - yo / 100 + yo / 400; 
+        int mo = m + 12 * ((14 - m) / 12) - 2;
+        int D = (d + xo + 31 * mo / 12) % 7;
+        StdOut.println(D);        
+        
     }
 }
