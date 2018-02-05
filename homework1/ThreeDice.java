@@ -3,8 +3,13 @@
 
 import edu.princeton.cs.algs4.StdOut;
 
+
 public class ThreeDice {
     public static void main(String[] args) {
-        ...
+        int a = (int) (Math.random()* 6)+1;
+        int b = (int) (Math.random()* 6)+1;
+        int c = (int) (Math.random()* 6)+1;
+        int sum = a + b + c;
+        StdOut.println(sum);
     }
-}
+      }

@@ -15,7 +15,8 @@ public class GreatCircle {
         double y1 = Math.toRadians(b);
         double x2 = Math.toRadians(c);
         double y2 = Math.toRadians(d);
-        double D = 111* Math.acos(Math.sin(x1) * Math.sin(x2) + Math.cos(x1) * Math.cos(x2) * Math.cos(y1-y2));
+        double D = 111* Math.acos(Math.sin(x1) * Math.sin(x2) 
+        + Math.cos(x1) * Math.cos(x2) * Math.cos(y1-y2));
         double C = Math.toDegrees(D);
         StdOut.println(C);
     }
