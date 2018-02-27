@@ -1,3 +1,5 @@
+package homework3;
+
 import edu.princeton.cs.algs4.StdOut;
 
 // A data type representing a rational number.

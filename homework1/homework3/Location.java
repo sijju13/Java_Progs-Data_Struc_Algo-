@@ -1,3 +1,5 @@
+package homework3;
+
 import edu.princeton.cs.algs4.StdOut;
 
 // An immutable type representing a location on Earth.

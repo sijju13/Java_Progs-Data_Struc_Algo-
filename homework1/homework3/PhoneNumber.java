@@ -1,3 +1,5 @@
+package homework3;
+
 import edu.princeton.cs.algs4.StdOut;
 
 // An immutable data type representing a US phone number.
@@ -8,13 +10,21 @@ public class PhoneNumber {
     
     // Construct a phone number given the area code, exchange, and extension.
     public PhoneNumber(int area, int exch, int ext) {
-        ...
+        this.area = area;
+        this.exch = exch;
+        this.ext = ext; 
     }
 
     // Is this phone number the same as that?
     public boolean equals(PhoneNumber that) {
-        ...
+        if(this.area == that.area && this.exch == that.exch 
+        && this.ext == that.ext){
+            return true;
+        }
+        return false;
+        
     }
+    
 
     // A string representation of the phone number, in "(area) exch-ext" 
     // format. Use String.format().

@@ -1,3 +1,5 @@
+package project1;
+
 /******************************************************************************
  *  Compilation:  javac InteractivePercolationVisualizer.java
  *  Execution:    java InteractivePercolationVisualizer N

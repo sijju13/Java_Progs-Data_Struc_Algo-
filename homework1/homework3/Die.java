@@ -1,3 +1,5 @@
+package homework3;
+
 import edu.princeton.cs.algs4.StdOut;
 
 // A data type representing a six-sided die.
@@ -6,22 +8,25 @@ public class Die {
 
     // Roll the die.
     public void roll() {
-        ...
+        value = (int) Math.random() * (6-1) + 1;
     }
 
     // Face value of the die.
     public int value() {
-        ...
+        return this.value;
     }
 
     // Does the die have the same face value as that?
     public boolean equals(Die that) {
-        ...
+        if(this.value == that.value){
+            return true;
+        }
+        return false;
     }
 
     // A string representation of the die giving the current face value.
     public String toString() {
-        ...
+        return "temp";
     }
 
     // Test client. [DO NOT EDIT]
